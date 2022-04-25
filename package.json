@@ -1,34 +1,37 @@
 {
-  "name": "sdc_qa",
-  "version": "1.0.0",
-  "description": "Backend practice, Node and DB learning",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CayenneCanyenne/SDC-Q-A.git"
-  },
-  "author": "Ying",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CayenneCanyenne/SDC-Q-A/issues"
-  },
-  "homepage": "https://github.com/CayenneCanyenne/SDC-Q-A#readme",
-  "dependencies": {
-    "body-parser": "^1.20.0",
-    "eslint-config-prettier": "^8.5.0",
-    "express": "^4.17.3",
-    "node": "^17.7.2",
-    "pg": "^8.7.3"
-  },
-  "devDependencies": {
-    "eslint": "^8.13.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "nodemon": "^2.0.15",
-    "prettier": "2.6.2"
-  },
-  "keywords": []
+    "name": "sdc_qa",
+    "version": "1.0.0",
+    "description": "Backend practice, Node and DB learning",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CayenneCanyenne/SDC-Q-A.git"
+    },
+    "author": "Ying",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CayenneCanyenne/SDC-Q-A/issues"
+    },
+    "homepage": "https://github.com/CayenneCanyenne/SDC-Q-A#readme",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "dotenv": "^16.0.0",
+        "eslint-config-prettier": "^8.5.0",
+        "express": "^4.17.3",
+        "mongoose": "^6.3.1",
+        "morgan": "^1.10.0",
+        "node": "^17.7.2",
+        "pg": "^8.7.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.13.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "nodemon": "^2.0.15",
+        "prettier": "2.6.2"
+    },
+    "keywords": []
 }
