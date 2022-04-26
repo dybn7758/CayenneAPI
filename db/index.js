@@ -1,10 +1,12 @@
 const { Pool } = require('pg');
+const dotenv = require('dotenv');
 
+dotenv.config({ path: './config.env' });
 const credentials = {
     user: 'postgres',
     host: 'localhost',
     database: 'SDC_QA',
-    password: 'password',
+    password: process.env.DATABASE_PASSWORD,
     port: 5432,
 };
 

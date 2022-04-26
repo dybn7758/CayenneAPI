@@ -34,6 +34,7 @@ app.put('/qa/answers/:answer_id/report', reportAns);
 
 // start server
 const port = process.env.PORT || 3000;
+console.log(port);
 app.listen(port, () => {
     console.log(`Server running on port ${port}....👩🏻‍💻`);
 });
