@@ -3,11 +3,11 @@ const dotenv = require('dotenv');
 
 dotenv.config({ path: './config.env' });
 const credentials = {
-    user: 'postgres',
-    host: 'localhost',
-    database: 'SDC_QA',
+    user: process.env.USER,
+    host: process.env.HOST,
+    database: process.env.DATABASE,
     password: process.env.DATABASE_PASSWORD,
-    port: 5432,
+    port: process.env.DATABASE_PORT,
 };
 
 const pool = new Pool(credentials);
