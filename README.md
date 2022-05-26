@@ -1,3 +1,7 @@
+# CayenneAPI
+
+The Goal of CayenneAPI is replace an existing API for [Notstrom](https://github.com/dybn7758/Notstrom)  with a back end system that can support the full data set for the project and can scale to meet the demands of production traffic.
+
 ### Project Phases
 
 ###### Phase 1: Design and multiple database options to analyze and compare, selecting one database option
@@ -21,9 +25,8 @@
 * Stress Tested by loader.io and optimized performance with Nginx the load balancer
 
 ### Database diagram
-![SDC-QA](https://user-images.githubusercontent.com/94567690/170399009-9170a830-221a-40ff-bcb0-ebecf88fd42a.png)
+![SDC-QA](https://user-images.githubusercontent.com/94567690/170399098-00909305-ee2e-45cf-bd1b-0d2b30c1dcfc.png)
 
 ### Stystem Architecture
 
-![Untitled-2022-04-16-1135 excalidraw](https://user-images.githubusercontent.com/94567690/170399026-55683d02-4072-41d4-80dc-c31744493fc1.png)
-
+![Untitled-2022-04-16-1135 excalidraw](https://user-images.githubusercontent.com/94567690/170399090-9f0120d3-804b-4089-a2ff-5b60caf1b60f.png)
