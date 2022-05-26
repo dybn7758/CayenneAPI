@@ -4,9 +4,9 @@ The Goal of CayenneAPI is replace an existing API for [Notstrom](https://github.
 
 ### Project Phases
 
-###### Phase 1: Design and multiple database options to analyze and compare, selecting one database option
-###### Phase 2: Transform the existing application data and load it into the database
-###### Phase 3: Design and build an API server to provide data to the client in the format specified by the API documentation
+##### Phase 1: Design and multiple database options to analyze and compare, selecting one database option
+##### Phase 2: Transform the existing application data and load it into the database
+##### Phase 3: Design and build an API server to provide data to the client in the format specified by the API documentation
 ###### Phase 4: Optimize the individual service by analyzing query times and server responses
 ###### Phase 5: Deploy the service and integrate it successfully with the [Notstrom](https://github.com/dybn7758/Notstrom) web application
 
@@ -26,6 +26,9 @@ The Goal of CayenneAPI is replace an existing API for [Notstrom](https://github.
 
 ### Database diagram
 ![SDC-QA](https://user-images.githubusercontent.com/94567690/170399098-00909305-ee2e-45cf-bd1b-0d2b30c1dcfc.png)
+
+### Query (JSON format)
+<img width="893" alt="WX20220525-205849@2x" src="https://user-images.githubusercontent.com/94567690/170399984-eeaeabdc-b58d-4127-86ea-b54576f3768d.png">
 
 ### Stystem Architecture
 
